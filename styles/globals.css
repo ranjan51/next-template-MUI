@@ -1,0 +1,71 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+
+code[class*='language-'] {
+  padding: 0;
+}
+.MuiBox-root
+  .MuiGrid-container
+  .MuiGrid-item
+  .react-datepicker-wrapper
+  .react-datepicker__input-container
+  .MuiFormControl-root {
+  width: 202%;
+}
+
+.MuiBox-root
+  .MuiGrid-container
+  .MuiGrid-item
+  .demo-space-x.dtpicker
+  .react-datepicker-wrapper
+  .react-datepicker__input-container
+  .MuiFormControl-root {
+  width: 100%;
+}
+.MuiBox-root
+  .MuiGrid-container
+  .MuiGrid-item
+  .demo-space-x.pickerDt
+  div
+  .react-datepicker-wrapper
+  .react-datepicker__input-container
+  .MuiFormControl-root {
+  width: 167%;
+}
+
+@media (max-width: 768px) {
+  .MuiBox-root
+    .MuiGrid-container
+    .MuiGrid-item
+    .demo-space-x.pickerDt
+    div
+    .react-datepicker-wrapper
+    .react-datepicker__input-container
+    .MuiFormControl-root {
+    width: 100%; /* Adjust the width as needed for smaller screens */
+  }
+}
+
+.MuiBox-root .MuiGrid-container.dateWidth .MuiGrid-item .react-datepicker-wrapper .react-datepicker__input-container .MuiFormControl-root {
+  width: 100%;
+}
